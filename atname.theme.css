@@ -1,0 +1,12 @@
+<!-- js -->
+/**
+ * @name @BeforeNames
+ * @author Curse
+ * @description adds the @ symbol before names hopefully
+ * @version 0.0.1
+ */
+
+<!-- css -->
+[class^=userTagUsernameBase-]::before {
+    content: "@";
+}
